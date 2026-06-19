@@ -17,7 +17,10 @@ module.exports = function createModuleHelp(module, workingPath, outputPath) {
     }
     module.dbObjects = metadata.parseXML(dbMetadata);
 
-    if (metadata.isArray(module.dbObjects.Tables)) {
+    var tables = metadata.defined(module.dbObjects.Tables) ? metadata.asArray(module.dbObjects.Tables.Table) : [];
+
+    if (tables.length > 0) {
+        module.dbObjects.Tables = { Table: tables };
         mergeDBInfoData(module.dbObjects);
         createHelpFile(outputPath, module);
         return true;

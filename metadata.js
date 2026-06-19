@@ -59,6 +59,12 @@ module.exports =  {
         return ar.length == 1 && Array.isArray(object[ar[0]]);
     },
 
+    // normalizes a Mago metadata node (missing, single child, or array) into a real array
+    asArray(value) {
+        if (typeof value === 'undefined' || value === null || value === '') return [];
+        return Array.isArray(value) ? value : [value];
+    },
+
     //-----------------------------------------------------------------------------
     objectName(namespace) {
         var segments = namespace.split('.');
