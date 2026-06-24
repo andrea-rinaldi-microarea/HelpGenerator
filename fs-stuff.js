@@ -31,10 +31,10 @@ const path = require('path');
   // https://stackoverflow.com/questions/18052762/remove-directory-which-is-not-empty  
   rimraf(targetDir, rootAlso = true) {
     if (fs.existsSync(targetDir)) {
-        fs.readdirSync(targetDir).forEach(function(entry) {
+        fs.readdirSync(targetDir).forEach((entry) => {
             var entry_path = path.join(targetDir, entry);
             if (fs.lstatSync(entry_path).isDirectory()) {
-                _this.rimraf(entry_path);
+                this.rimraf(entry_path);
             } else {
                 fs.unlinkSync(entry_path);
             }
@@ -46,6 +46,4 @@ const path = require('path');
   }
 }
 
-_this = new FSStuff();
-
-module.exports = _this;
+module.exports = new FSStuff();
