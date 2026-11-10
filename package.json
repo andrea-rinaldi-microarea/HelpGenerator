@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "MagoCloud help pages generator from metadata",
   "main": "main.js",
+  "bin": {
+    "helpgen": "./main.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "run": "node main.js"
