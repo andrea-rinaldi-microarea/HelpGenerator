@@ -1,0 +1,1170 @@
+/****************** FONTS ******************/
+/* open_sans_300 - latin-ext_latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'),
+       url('../fonts/open_sans_300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open_sans_300italic - latin-ext_latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'),
+       url('../fonts/open_sans_300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open_sans_regular - latin-ext_latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('../fonts/open_sans_regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open_sans_italic - latin-ext_latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'),
+       url('../fonts/open_sans_italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open_sans_600 - latin-ext_latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+       url('../fonts/open_sans_600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open_sans_600italic - latin-ext_latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'),
+       url('../fonts/open_sans_600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open_sans_700 - latin-ext_latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'),
+       url('../fonts/open_sans_700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open_sans_700italic - latin-ext_latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'),
+       url('../fonts/open_sans_700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/***************** TEXT *****************/
+body {
+	margin: 0px; 
+	font-family: 'Open Sans Light', sans-serif;
+	font-weight:300;
+	font-size: 11pt;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+  font-size: 210%;
+  font-weight: 600;
+  padding-top: 40px;
+}
+
+h2 {
+	 font-size: 210%;
+	 font-weight: 600;
+	 padding-top: 40px;
+}
+
+h3 {
+	 font-size: 190%;
+	 font-weight: 700;
+	 padding-top: 35px;
+}
+  
+h4 {
+	 font-size: 170%;
+	 font-weight: 600;
+	 padding-top: 30px;
+}
+
+h5 {
+	font-size: 150%;
+	font-weight: 600;
+	padding-top: 25px;
+  background-color: inherit;
+  padding-left: inherit;
+}
+
+h6 {
+	font-size: 120%;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #e1e4ea;
+    display: table;
+}
+
+.fake_h4 {
+  font-size: 170%;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.fake_h6 {
+	font-size: 120%;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #e1e4ea;
+    display: table;
+}
+
+.h7 {
+    font-size: 120%;
+    font-weight: 600;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-left: inherit;
+    padding-right: 10px;
+    display: table;
+}
+
+h1, h2, h3, h4 {
+	line-height: 120%;
+}
+
+h5, h6, .h7 {
+	line-height: 100%;
+}
+
+p {
+	 text-align:justify;
+}
+
+dt {
+	 font-weight: 700;
+}
+
+dd {
+	 text-align:justify;
+}
+
+.cntpage {
+  margin-top:115px;
+  margin-bottom: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.cntpage a {
+  font-weight:400;
+  text-decoration: underline;
+}
+
+.cntpage a:hover {
+  text-decoration: none;
+}
+
+.cntpage a:active {
+  border-radius: 3px;
+}
+
+.maintitle {
+    page-break-before: right;
+    color: #006baf;
+}
+
+.img_label, .video_label, .audio_label, .table_label {
+    margin-top: 3px;
+    font-size: 90%;
+    font-style: italic;
+    text-align: center;
+}
+
+.img_container, .video_container, .audio_container, .table_container {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+}
+
+.tagcell {
+background-color: antiquewhite
+}
+
+.img_container img, .video_container video, .audio_container audio {
+	display:block;
+	position: relative;
+}
+
+.video_container video, .audio_container audio, .table_container table {
+    position: relative;
+    margin:auto;
+}
+
+.resizeimg {
+    max-width: 100%;
+    height: auto;
+    margin:auto;
+}
+
+video, audio {
+	margin-top: 5px;
+}
+
+/***************** PRE/CODE *****************/
+pre, code {
+  font-family: "Courier New", Courier, monospace, monospace;
+}
+
+code {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code, .quiz p>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 110%;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+pre code {
+  background-color: transparent;
+  border: none;
+}
+
+
+/***************** SECTIONS *****************/
+.info, .example, .warning, .localize, .configuration {
+    margin-left: 20px;
+    margin-right: 50px;
+	margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.info {
+    background-color: #e4f0f5;
+    border: 1px solid hsla(198, 45%, 45%, 0.1);
+    border-left: 5px solid #3f87a6;
+}
+
+.example {
+    font-size: 106%;
+    background-color: #f8f8f8;
+    border: 1px solid hsla(0, 0%, 60%, 0.1);
+    border-left: 5px solid #999999;
+}
+
+.warning {
+    background-color: #ffedcc;
+    border: 1px solid hsla(28, 79%, 72%, 0.1);
+    border-left: 5px solid #f0b37e;
+}
+
+.localize {
+  background-color: #c7dbcb;
+  border: 1px solid hsla(28, 79%, 72%, 0.1);
+  border-left: 5px solid #447a4f;
+}
+
+.configuration {
+  background-color: #d9c9dd;
+  border: 1px solid hsla(28, 79%, 72%, 0.1);
+  border-left: 5px solid #66447a;
+}
+
+.marginnote {
+    float: right;
+    width: 150px;
+    left: 750px;
+    font-size: 80%;
+    margin: 15px;
+}
+
+.marginnote p {
+    text-align: right;
+}
+
+.callout {
+    float: right;
+    width: 200px;
+    background-color: lightyellow;
+    margin: 10px;
+    padding: 10px;
+}
+
+.callout p {
+    text-align: right;
+}
+
+.expand, .collapsing {
+    cursor:pointer;
+    background-image: url(expsec.png);
+    background-size:16px;
+    background-position:bottom;
+    background-repeat:no-repeat;
+    height:16px;
+    width:16px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.collapsing {
+    background-image: url(collsec.png);
+}
+
+.contextualNote {
+    display: none; /*initially hidden*/
+    font-size:90%;
+    padding-left: 20px;
+}
+
+
+/***************** SCREEN *****************/
+@media screen {
+	.cover {
+		margin:35px 50px 200px 50px;
+		text-align:center;
+		cursor: pointer;
+	}
+    
+    .cover_singlepage {
+        margin:70px 40px 100px 20px;
+        text-align:center;
+    }
+	
+	.quizprint {
+		display:none;
+	}
+	
+	.tool_top, .tool_bottom {
+	    visibility: hidden;
+	    width: 200px;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	    background-color: #e4f0f5;
+	    color: black;
+	    text-align: center;
+	    border-radius: 5px;
+	    padding: 10px 10px 10px 10px;
+	    z-index: 999;
+	    margin-left: -110px;
+	    opacity: 0;
+	    transition: opacity 1s;
+	    -webkit-transition: opacity 1s;
+	}
+	
+	.tooltip:hover .tool_top, .tooltip:hover .tool_bottom {
+	    visibility: visible;
+	    opacity: 1;
+	}
+	
+	.tool_top {
+	    bottom: 160%;
+	    left: 50%;
+	}
+	
+	.tool_bottom {
+	    top: 190%;
+	    left: 50%;
+	}
+}
+
+
+/***************** PRINT *****************/
+@media print {
+	
+	body {
+        font-size: 14pt;
+	}
+	
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+	
+    pre {
+        white-space: pre-wrap !important;
+        word-wrap: break-word !important;
+    }
+	
+	.cover, .cover_singlepage {
+		margin:200px 40px 0px 40px;
+		text-align:center;
+		page-break-after:always;
+	}
+	
+	.quizeval, .solutions_title, .spotArea, .tool_top, .tool_bottom {
+		display:none !important;
+	}
+	
+    .spotText {
+        border: 0 !important;
+    }
+    
+    .contextualNote {
+        display: block !important;
+    }
+    
+    /***** Visualizzazione tooltip in stampa *****/
+    /*
+	.tool_top, .tool_bottom {
+	    bottom: -0.2em !important;
+	    font-size: 80% !important;
+	    line-height: 0 !important;
+	    position: relative !important;
+	    vertical-align: baseline !important;
+	    margin-left: 5px !important;
+	    margin-right: 5px !important;
+	    color: black !important;
+	    text-decoration: underline !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+	}
+    */
+}
+
+@page {
+  margin-left: 2cm;
+  margin-right: 1.5cm;
+  margin-top: 2.5cm;
+  margin-bottom: 2.5cm;
+}
+
+
+/***************** COVER *****************/
+
+.prev_next_container_up {
+  background-color: #006baf !important;
+} 
+
+.prev_next_container_up {
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 0;  
+  padding-left: 0;
+  padding-right: 0;
+  z-index: 150;
+  background-color: #006baf !important;
+}
+
+
+.index_logo,
+.index_logo img{
+  /* width:260px; */
+}
+
+.title {
+  font-size:250%;
+  font-weight:400;
+  margin:10px 0px 5px 0px;
+  line-height: 100%;  
+  color: #006baf;
+}
+
+.maintitle h1{
+  color: #006baf;
+}
+
+.undertitle {
+	display:block;
+	border-bottom: 1pt solid #dbdbdb;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 5px;
+	margin-bottom: 15px;
+}
+
+.undertitle img {
+	width:83px;
+	height:7px;
+}
+
+.subtitle {
+  font-size:120%;
+}
+
+.author {
+  margin-bottom:3px;
+  color:#999999;
+  font-weight:300;
+  font-size:100%;
+}
+
+.titledate {
+	padding-top: 10px;
+}
+
+.abstract {
+    margin-top: 20px;
+    display: block;
+    white-space: pre;
+}
+
+.coverimg {
+	margin-top: 40px;
+    max-width: 100%;
+    height: auto;
+}
+
+/**************** TOOLTIP *****************/
+.tooltip {
+    position: relative;
+    color: #0072C6;
+    font-weight:400;
+}
+
+.tooltip:hover {
+    text-decoration: underline;
+}
+
+
+/***************** TABLE *****************/
+.stb, .btb, .b2tb {
+  border-spacing:0px;
+  margin:10px;
+}
+
+.btb {
+  border:solid 1px black;
+}
+
+.b2tb {
+  border:solid 3px black;
+}
+
+.ruledtr td {
+  border-bottom:solid 1px black;
+}
+
+.ruled2tr td {
+  border-bottom:solid 3px black;
+}
+
+table.btb tr.ruledtr:last-child td,
+table.b2tb tr.ruledtr:last-child td,
+table.btb tr.ruled2tr:last-child td,
+table.b2tb tr.ruled2tr:last-child td {
+  border-bottom:0;
+}
+
+td {
+  padding:5px;
+}
+
+.rbtd {
+  border-right:solid 1px black;
+}
+
+.lbtd {
+  border-left:solid 1px black;
+}
+
+
+/***************** OTHER *****************/
+.appendix {
+  page-break-before:right;
+}
+
+.glossary dd {
+  margin-bottom:20px;
+}
+
+#empty_page {
+    display: none;
+}
+
+/****************** QUIZ *****************/
+.quiz {
+  padding-bottom: 10px;
+}
+
+.quiztitle {
+  font-weight:700;
+  color:white;
+  padding:10px;
+  text-align:left;
+}
+
+.quiz p {
+    line-height: 18px;
+    font-weight: 400;
+    padding: 15px 25px 30px 20px;
+    background-color: #f8f8f8;
+    margin: 0 0 10px -20px;
+}
+
+.quiz form {
+    margin-left: 20px;
+}
+
+.answercomment, .anspos_ok, .anspos_ko {
+    background-color: hsla(54, 100%, 80%, 0.75);
+}
+
+.answercomment {
+  color: #1A1AA6;
+  font-style: italic;
+  font-weight: 400;
+  border: 1px solid #FFEB3B;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 0;
+  line-height: normal;
+}
+
+.answercomment p {
+    margin: 0;
+    line-height: normal;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.s_pos .answercomment {
+    background-color: transparent;
+    border: 0;
+}
+
+.answer_ok, .anscmt_ok, .anspos_ok, .txt_exact, .txt_1respok, .txt_respok {
+    color: green !important;
+    border-color: green !important;
+}
+
+.answer_ko, .anscmt_ko, .anspos_ko, .txt_wrong, .txt_1respno, .txt_respno {
+    color: red !important;
+    border-color: red !important;
+}
+
+.answer_ok, .answer_ko {
+    font-weight: bold;
+}
+
+.anscmt_ok, .anscmt_ko {
+    display: block !important;
+}
+
+.anspos_ok, .anspos_ko {
+    border-style: solid !important;
+    border-width: 1pt !important;
+    border-radius: 3px;
+}
+
+#quizbtn {
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    cursor: pointer;
+    margin: 0 0 50px 0;
+    height: 40px;
+	border-style: solid;
+    border-width: 1px;
+    border-radius:5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-transform: uppercase;
+}
+
+#quizbtn:hover {
+	border-style: solid;
+    border-width: 1px;
+    color: black;
+}
+
+#quizresult {
+    font-weight: 400;
+}
+
+.quizeval {
+    padding-top: 10px;
+}
+
+
+/*****************  MAPPE ****************/
+.mapArea, .spotArea {
+	display: block;
+    z-index: 5;
+}
+
+.mapArea:active, .spotTextHoover, .spotAreaHoover, .spotArea, .spotText {
+	border-radius: 5px;
+}
+
+.spotTextHoover {
+    background-color: lightpink;
+}
+
+.spotAreaHoover {
+    background-color: hsla(349, 86%, 50%, 0.2);
+}
+
+.spotArea {
+    border: 2px solid hsla(0, 68%, 42%, 0.2);
+    cursor: pointer;
+}
+
+.spotText {
+	border: 1px dotted FireBrick;
+    cursor: help;
+}
+
+
+/************** SAM.CSS SKIN STANDARD *************/
+.cntpage a {
+  color: hsl(209, 100%, 39%);
+}
+
+.cntpage a:active {
+  background-color: hsla(209, 71%, 85%, 0.3);
+}
+
+.quiztitle, #quizbtn {
+  background-color: hsl(209, 58%, 49%);
+}
+
+#quizbtn {
+    border-color: hsl(209, 58%, 35%);
+}
+
+#quizbtn:hover {
+    background-color: hsl(209, 81%, 74%);
+    border-color: hsl(209, 58%, 49%);
+}
+
+::-moz-selection {
+  background: hsl(209, 81%, 86%);
+}
+
+::selection {
+  background: hsl(209, 81%, 86%);
+}
+
+
+.img_info {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_info.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_info {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgb(52, 158, 235, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgb(52, 158, 235,0.1);
+}
+
+.box_info::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_info.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_menu_path {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_menu.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_menu_path {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(255, 166, 0, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgb(255, 166, 0, 0.1);
+}
+
+.box_menu_path::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_menu.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_warning {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_warning.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_warning {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(255, 0, 0, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.box_warning::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_warning.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_configuration {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_config.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_configuration {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(223, 223, 223, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(223, 223, 223, 0.1);
+}
+
+.box_configuration::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_config.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_localized {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_world.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_localized {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(223, 223, 223, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(223, 223, 223, 0.1);
+}
+
+.box_localized::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_world.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_localized_it {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(223, 223, 223, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(223, 223, 223, 0.1);
+}
+
+.box_localized_it::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_ita.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_localized_en {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(223, 223, 223, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(223, 223, 223, 0.1);
+}
+
+.box_localized_en::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_en.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_draft {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(255, 238, 0, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(255, 238, 0, 0.1);
+}
+
+.box_draft::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_draft.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_example {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_example.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_example {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(255, 238, 0, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(255, 238, 0, 0.1);
+}
+
+.box_example::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_example.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_video {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_video.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_video {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(25, 0, 255, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(25, 0, 255, 0.1);
+}
+
+.box_video::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_video.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_download {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_download.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_download {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(25, 0, 255, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(25, 0, 255, 0.1);
+}
+
+.box_download::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_download.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_info_document {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_document.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_info_document {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(174, 0, 255, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(174, 0, 255, 0.1);
+}
+
+.box_info_document::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_document.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

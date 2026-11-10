@@ -1,0 +1,417 @@
+.table_container {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    display: inline-block;
+    margin-left: 0;
+    transform: none;
+    -ms-transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+}
+
+.warning {
+    background-color: #ffedcc;
+    border: 1px solid hsla(28, 79%, 72%, 0.1);
+    border-left: 5px solid #f0b37e;
+}
+
+.table_container tr.ruledtr:last-child td {
+  border-bottom-width: 0 !important;
+}
+
+.table_container tr.ruledtr th:last-child, .table_container tr.ruledtr td:last-child {
+  border-right: 0 !important
+}
+
+.table_container .tb_specs_card th {
+  background-color: transparent;
+}
+
+.table_container .tb_specs_card tr td:first-of-type {
+  background-color: #e4f0f5;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.table_container .tb_specs_card tr td:first-of-type a {
+  font-weight: bold;
+  color: revert;
+  text-decoration: underline;
+}
+
+
+
+
+.img_info {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_info.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_info {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgb(52, 158, 235, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgb(52, 158, 235,0.1);
+}
+
+.box_info::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_info.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_menu_path {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_menu.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_menu_path {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(255, 166, 0, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgb(255, 166, 0, 0.1);
+}
+
+.box_menu_path::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_menu.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_warning {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_warning.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_warning {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(255, 0, 0, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.box_warning::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_warning.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_configuration {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_config.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_configuration {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(223, 223, 223, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(223, 223, 223, 0.1);
+}
+
+.box_configuration::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_config.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_localized {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_world.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_localized {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(223, 223, 223, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(223, 223, 223, 0.1);
+}
+
+.box_localized::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_world.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_localized_it {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(223, 223, 223, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(223, 223, 223, 0.1);
+}
+
+.box_localized_it::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_ita.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_localized_en {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(223, 223, 223, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(223, 223, 223, 0.1);
+}
+
+.box_localized_en::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_en.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_draft {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(255, 238, 0, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(255, 238, 0, 0.1);
+}
+
+.box_draft::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_draft.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_example {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_example.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_example {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(255, 238, 0, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(255, 238, 0, 0.1);
+}
+
+.box_example::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_example.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_video {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_video.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_video {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(25, 0, 255, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(25, 0, 255, 0.1);
+}
+
+.box_video::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_video.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_download {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_download.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_download {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(25, 0, 255, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(25, 0, 255, 0.1);
+}
+
+.box_download::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_download.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img_info_document {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_document.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box_info_document {
+  padding: 20px 15px 15px 7px;
+  border: 2px solid rgba(174, 0, 255, 0.3);
+  border-radius: 5px;
+  font-style:italic;
+  background-color: rgba(174, 0, 255, 0.1);
+}
+
+.box_info_document::before {
+  content: "";
+  top: 10px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0px 0px;
+  background-image: url("/HelpCenter/mago-styles/icon_document.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+

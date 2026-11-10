@@ -12,7 +12,7 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\main.js",
-            "args": ["C:\\Users\\rinaldi\\Documents\\working\\help", "C:\\development\\Standard\\Applications" ]
+            "args": ["C:\\helpgensource", "C:\\MagoDevelop\\Standard\\Applications" ]
         }
     ]
 }

@@ -1,0 +1,445 @@
+/****************** Infinity Fusion Standard - MagoCloud ******************/
+
+.index_logo,
+.index_logo img,
+.quiztitle,
+#quizbtn {
+        background-color: #006BAF !important;
+}
+
+#searchInfo:hover,
+#searchCanc.active:hover,
+#collapsebar,
+#found_list .glossitem:before,
+#found_list .mediaitem:before,
+#found_list .bookitem:before,
+#found_list .editbutton:hover,
+#found_list .delbutton:hover,
+#found_list a:before,
+#found_list a.active.glossurls .glossicon:hover,
+#found_list a.active.glossurls.opened .glossicon:hover,
+div.exp_col:hover::before,
+ul.tree li .default_icon {
+    color: hsl(203, 100%, 34%) !important;
+}
+
+.frame_body {
+    margin: 0px;
+    color: #005890;
+}
+
+
+.collbarclosed:before {
+    /* content: "\f728"; */
+    content: "\f142";
+    margin-left: 1px;
+    font-size: 70%;
+}
+
+.collbaropened, .collbaropenedsmall {
+    font-size: 32px;
+    background-color: #87bef2;
+}
+
+.collbaropened {
+    margin-left: -28px;
+    width: 28px;
+    border-radius: 0;
+    padding-right: 12px;
+    padding: 0 4px;
+}
+
+
+.collbaropenedsmall {
+    background-color: #87bef2;
+    border-radius: 0;
+    -webkit-border-ra0dius: 0px;
+    -moz-border-radius: 0px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    margin-top: -37px;
+    box-shadow: none;
+}
+
+.collbarclosed {
+    border-radius: 0;
+    -webkit-border-ra0dius: 0px;
+    -moz-border-radius: 0px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    margin-top: 0px;
+    box-shadow: none;
+    font-size: 49px;
+    margin-left: 3px;
+    line-height: 27px;
+    padding-right: 11px;
+    padding-left: 0px;
+    width: 23px;
+    border: 1px solid #005890;
+}
+.collbarclosed:hover{
+    background-color: #87bef2;
+}
+
+
+#searchIcon.speech:hover {
+	color: hsl(209, 58%, 49%);
+}
+
+#searchInput:focus {
+    border-bottom-color: hsl(209, 58%, 49%);
+}
+
+#entity_loading::before,
+#entity_loading::after {
+	border-top-color: hsl(209, 58%, 49%) !important;
+}
+
+/*************** VARIANTI DI COLORE ***************/
+.topnav a:hover,
+a:active,
+#found_list a:hover,
+span.node:hover {
+    background-color: hsl(209, 100%, 93%);
+}
+
+.head_btn a:hover {
+    background-color: hsl(209, 58%, 30%);
+}
+
+span.node_selected,
+#found_list a.active,
+#found_list .book_input,
+#quizbtn:hover {
+    border-color: hsl(209, 81%, 74%) !important;
+}
+
+span.node_selected,
+#found_list a.active {
+    background-color: hsl(209, 71%, 85%);
+}
+
+span.node_selected a {
+    padding-left: 3px;
+    font-weight: 700;
+    /* font-style: italic; */
+}
+
+/************** SAM.CSS SKIN STANDARD *************/
+.cntpage a,
+.gloss_body #div_header {
+  color: hsl(209, 100%, 39%);
+}
+
+.cntpage a:active {
+  background-color: hsla(209, 71%, 85%, 0.3);
+}
+
+#quizbtn {
+    border-color: hsl(209, 58%, 35%) !important;
+}
+
+#quizbtn:hover {
+    background-color: hsl(209, 81%, 74%) !important;
+}
+
+::-moz-selection {
+  background: hsl(209, 81%, 86%);
+}
+
+::selection {
+  background: hsl(209, 81%, 86%);
+}
+
+/*************** ADDED FOR MAGOCLOUD ***************/
+
+/* .index_logo {
+    height: 60px;
+    position: absolute;
+    top: 0px;
+     box-shadow: 10px 4px 2px -2px rgb(0 0 0 / 20%);
+    z-index: 10;
+}
+ */
+
+.index_logo {
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    box-shadow: 10px 4px 2px -2px rgb(0 0 0 / 20%);
+    z-index: 10;
+}
+.index_logo a img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border: 0px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 40%);
+}
+
+.index_cnt {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-right: 10px;
+    /* -webkit-transform: translate3d(0,0,0); */
+}
+
+table.a_i {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    height: 50px;
+    font-weight: 300;
+    top: 0;
+    margin: 0;
+    background-color: #006BAF;
+}
+.header_title {
+    position: fixed;
+    top: 2px;
+    left: 92px;
+    width: 230px;
+    height: 54px;
+    vertical-align: middle;
+    z-index: 10;
+}
+table.a_i .prev_btn {
+    width: 110px;
+    padding-left: 120px;
+    letter-spacing: 2px;    
+    text-transform: uppercase;
+}
+
+table.a_i .next_btn {
+    width: 110px;
+    padding-right: 120px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.head_btn a, .cur_title1 a, .filler div {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 80%;
+    z-index: 150;
+    position: relative;
+}
+
+.head_btn a:hover {
+    background-color: #063859;
+    height: 36px;
+    line-height: 28px;
+    border-radius: 0x;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    
+}
+
+.txt_prev:before, .txt_next:after {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.frame_idx {
+    margin: 0px 0px 0px 0px;
+    background-color: #DDE4E7;
+    padding: 0 0 0 10px;
+}
+
+.frame_cnt {
+    background-color: #fff;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color:#006BAF;
+    /* background-color: white; */
+    border-bottom: 1px solid #55AFE9;
+    padding: 6px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 12px Open Sans, sans-serif;
+    font-weight: 400;
+}
+
+.topnav a.active {
+    color: #063859 !important;
+    border-bottom: 2px solid;
+}
+
+#searchInput {
+    font: 14px Open Sans, sans-serif;
+    padding: 8px 10px 8px 35px;
+    border: none;
+    border: 1px solid hsl(209deg 81% 74%);
+    display: block;
+    overflow: hidden;
+    resize: none;
+    position: relative;
+    width: 100%;
+}
+
+#searchIcon {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    font-size: 29px;
+    text-decoration: none;
+}
+
+#div_tree {
+    
+    font: 13px Open Sans, sans-serif;
+    color: #063859;
+    
+}
+
+ul.tree li {
+    margin: 0;
+    padding: 0 12px;
+    line-height: 36px;
+}
+
+div.exp_col {
+    position: absolute;
+    display: inline;
+    margin-left: -20px;
+    vertical-align: sub;
+    line-height: 35px;
+}
+
+span.node:hover {
+        border-bottom:1px solid  hsl(209deg 100% 39%);
+        background-color: #DDE4E7;
+       
+}
+
+.maintitle {
+    font-size: 180% !important;
+    font-weight: 100 !important;
+    font-style: italic;
+    
+}
+
+.cntpage {
+    margin-top: 26px;
+}
+
+#div_header {
+    height: 49px;
+    z-index: 9;
+    border-bottom: 2px solid #55AFE9;
+    margin-left: 0px;
+    padding-left: 0px;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.info, .example, .warning {
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #043350;
+    
+}
+
+.example {
+    font-style: italic;
+    font-size: 90%;
+    background-color: hsl(19deg 100% 92%);
+    border: 1px solid hsla(0, 0%, 60%, 0.1);
+    border-left: 5px solid #fb7625;
+    font-weight: 400;
+}
+
+
+/*****************  MAPPE ****************/
+.mapArea, .spotArea {
+	display: block;
+    z-index: 5;
+}
+
+.mapArea:active, .spotTextHoover, .spotAreaHoover, .spotArea, .spotText {
+	border-radius: 0px;
+}
+
+.spotTextHoover {
+    background-color:  #ffb26a;
+}
+
+.spotAreaHoover {
+    background-color: hsla(36, 86%, 50%, 0.3);
+}
+
+.spotArea {
+    border: 2px solid hsla(349, 86%, 50%, 0.3);
+    cursor: pointer;
+}
+
+.spotText {
+	border: 1px dotted  #fb7625;
+    cursor: help;
+}
+
+.contextualNote {
+    display: none;
+    font-size: 90%;
+    padding-left: 20px;
+    background-color: hsl(209deg 71% 85% / 30%);
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .a_i {
+        margin-top: 0px !important; 
+        line-height: 28px !important;
+    }
+    table.a_i tbody td {
+        padding: 0;
+        margin: 0;
+        padding-top: 14px;
+    }
+    table.a_i .next_btn {        
+        padding-right: 0px;    
+        margin-top: 10px;
+        width: 40px;    
+    }
+    table.a_i .prev_btn {
+        padding-top: 18px;
+        width: 40px;
+        padding-left: 0px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .head_btn a:hover {
+        background-color: #063859;
+        height: 28px;
+        line-height: 28px;
+        border-radius: 0x;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+    }
+
+}

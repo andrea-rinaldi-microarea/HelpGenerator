@@ -1,0 +1,10 @@
+[LANG en]
+[NOCOVER]
+
+[STYLE _mago_styles/mago-custom.css]
+[STYLE _mago_styles/mago-help-custom.css]
+[RESOURCES _mago_styles/skin.css]
+[RESOURCES _mago_styles/logo_top.png]
+[RESOURCES _mago_styles/favicon.png]
+
+[H2 BUSINESSOBJECTS]BUSINESSOBJECTS
