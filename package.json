@@ -2,18 +2,16 @@
   "name": "helpgen",
   "version": "1.0.0",
   "description": "MagoCloud help pages generator from metadata",
-  "main": "main.js",
-  "bin": {
-    "helpgen": "./main.js"
-  },
+  "main": "help-gen.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "help": "node main.js"
+    "help": "node help-gen.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.1",
+    "command-line-args": "^6.0.1",
     "glob": "^7.1.2",
     "lodash": "^4.17.10",
     "package": "^1.0.1",
